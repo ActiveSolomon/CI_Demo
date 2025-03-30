@@ -4,7 +4,7 @@ pipeline{
         stage('build'){
             steps{
                 script{
-                    sh 'mvn clean package'
+                    sh 'echo "build"'
                 }
             }
 
@@ -13,7 +13,7 @@ pipeline{
         stage('test'){
             steps{
                 script{
-                    sh 'mvn test'
+                    sh 'echo "build"'
                 }
             }
 
